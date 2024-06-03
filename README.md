@@ -1,0 +1,1 @@
+This is a mock-up of a sign-up form that I'm creating as part of The Odin Project. It features a few form fields with client-side validation. I'm also recreating the look from this screenshot (https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png).
