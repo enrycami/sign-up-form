@@ -7,6 +7,50 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="main">
+        <div class="left">
+            <div class="logo-container">
+                <img src="./img/odin-lined.png" alt="odin logo">
+                <h1>ODIN</h1>
+            </div>
+            <div class="img-credits">
+                Photo by <a href="">Halie West</a> on <a href="">Unsplash</a>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="form-row first">
+                <p>This is not a real online service! You know you need something like this in your life to help you realizer your deepest dreams. Sign up now to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div class="form-row form-container">
+                <h2>Let's do this!</h2>
+                <form action="#" method="post" id="sign-up-form">
+                    <label for="first-name"><span>*</span>FIRST NAME
+                        <input type="text" name="first-name" id="first-name"        placeholder="John" required>
+                    </label>
+                    <label for="last-name"><span>*</span>LAST NAME
+                        <input type="text" name="last-name" id="last-name" placeholder="Doe" required>
+                    </label>
+                    <label for="email"><span>*</span>EMAIL
+                        <input type="email" name="email" id="email" placeholder="jdoe@email.com" required>
+                    </label>
+                    <label for="tel">PHONE NUMBER
+                        <input type="tel" name="tel" id="tel" placeholder="+01 2345678900">
+                    </label>
+                    <label for="pwd"><span>*</span>PASSWORD
+                        <input type="password" name="pwd" id="pwd" required>
+                    </label>
+                    <label for="pwd-confirm"><span>*</span>CONFIRM PASSWORD
+                        <input type="password" name="pwd-confirm" id="pwd-confirm" required>
+                    </label>
+                </form>
+            </div>
+            <div class="form-row submit-btn">
+                <button type="submit" form="sign-up-form">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
